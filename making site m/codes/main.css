@@ -1,0 +1,60 @@
+body{
+margin: 0;
+background-color: #36454F;
+
+}
+/* top of the site */
+#top_site{
+width: auto;
+height: 55px;
+background-color: #242e35;
+}
+
+
+#camera_icon{
+font-size: 20px;
+position: absolute;
+top: 17px;
+left: 110px;
+text-decoration: none;
+color: white;
+}
+
+#album_top{
+font-size: 20px;
+position: absolute;
+top: 15px;
+left: 135px;
+font-family: Impact;
+color: white;
+text-decoration: none;
+}
+
+
+#hr{
+box-shadow: 0px 0px 10px 0.5px black;
+border: 0;
+margin: 0;
+}
+
+
+#button_top{
+box-sizing: border-box;
+background-color:transparent ;
+width: 65px;
+height:44px;
+font-size: 25px;
+border-radius: 5px;
+padding: 8px;
+border: 0.5px solid rgb(70, 70, 70);
+margin: none;
+position: absolute;
+top: 5px;
+left: 800px;
+}
+
+
+
+
+/* pesudo selections */
+a:visited { color:white }
