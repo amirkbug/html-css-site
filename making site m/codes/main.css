@@ -1,33 +1,42 @@
 body{
 margin: 0;
-background-color: #36454F;
-
+background-color: #1c2329;
 }
 /* top of the site */
 #top_site{
 width: auto;
 height: 55px;
-background-color: #242e35;
+background-color: #1c2329;
+padding-top: 5px;
+padding-bottom: 5px;
+box-sizing: border-box;
+padding-right: 80px;
 }
 
 
 #camera_icon{
 font-size: 20px;
 position: absolute;
-top: 17px;
+top: 16px;
 left: 110px;
 text-decoration: none;
 color: white;
+margin-right: 10px;
 }
+
+
+
+
 
 #album_top{
 font-size: 20px;
 position: absolute;
 top: 15px;
 left: 135px;
-font-family: Impact;
+font-family: impact;
 color: white;
 text-decoration: none;
+margin-right: 10px;
 }
 
 
@@ -39,7 +48,6 @@ margin: 0;
 
 
 #button_top{
-box-sizing: border-box;
 background-color:transparent ;
 width: 65px;
 height:44px;
@@ -47,14 +55,118 @@ font-size: 25px;
 border-radius: 5px;
 padding: 8px;
 border: 0.5px solid rgb(70, 70, 70);
-margin: none;
-position: absolute;
-top: 5px;
-left: 800px;
+display: block;
+float: right;
+}
+
+
+/* album example and paragraph */
+#album_main{
+margin-right: 10%;
+margin-left: 10%;
+text-align: center;
+padding: 48px 12px;
+text-align: center;
+}
+
+
+#album_into{
+padding: 48px 0px;
+text-align: center;
+}
+
+#album_into_into{
+margin-right: 25%;
+margin-left: 25%;
+padding: 0px 5%;
+margin-top: 2%;
+color: rgb(184, 184, 184);
+margin-top: 0px;
+text-align: center;
+}
+
+#album_example{
+text-align: center;
+font-size: 40px;
+margin-bottom: 10px;
+font-family: sans-serif;
+width: auto;
+height: auto;
+}
+
+#album_example_paragraph{
+font-family: sans-serif;
+font-size: 20px;
+line-height: 30px;
+color: #8d8f91;
+text-align: center;
+margin-bottom: 16px;
+width: auto;
+height: auto;
+}
+/* pictures album main */
+#pictures_album_main{
+width: auto;
+height: auto;
+padding-top: 48px ;
+padding-bottom: 48px;
+}
+
+
+#pictures_album_in{
+margin-right:  15%;
+margin-left:  15%;
+padding: 0px 12px;
+box-sizing: border-box;
+}
+
+
+#bootuns{
+height: auto;
+width: auto;
+margin-bottom: 26px;
+}
+
+#main_call{
+width: 157px;
+height: 37px;
+background-color: rgb(70, 70, 255);
+border: 2px #1c2329 solid ;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+padding: 6px 12px;
+}
+
+
+#secondory_action{
+width: 157px;
+height: 37px;
+background-color: rgb(88, 88, 88);
+border: 2px #1c2329 solid ;
+border-radius: 5px;
+color: white;
+font-size: 15px;
+padding: 6px 12px;
+}
+
+/* picturs */
+
+
+/* media for button */
+@media only screen and (max-width: 371px){
+#button_top{
+display: none;
+}
+}
+
+
+@media only screen and { max-width: ;
+    
 }
 
 
 
 
 /* pesudo selections */
-a:visited { color:white }
+a:visited { color:rgb(52, 52, 52) }
