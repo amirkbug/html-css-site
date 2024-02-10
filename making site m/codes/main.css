@@ -1,6 +1,11 @@
 body{
-margin: 0;
+margin: 0%;
+padding: 0%;
 background-color: #1c2329;
+}
+
+img{
+border: 0px;
 }
 /* top of the site */
 #top_site{
@@ -67,21 +72,23 @@ margin-left: 10%;
 text-align: center;
 padding: 48px 12px;
 text-align: center;
+box-sizing: border-box;
+width: 80%;
+height: 80%;
 }
 
 
 #album_into{
 padding: 48px 0px;
 text-align: center;
+box-sizing: border-box;
 }
 
 #album_into_into{
-margin-right: 25%;
-margin-left: 25%;
+margin-right: 20%;
+margin-left: 20%;
 padding: 0px 5%;
-margin-top: 2%;
 color: rgb(184, 184, 184);
-margin-top: 0px;
 text-align: center;
 }
 
@@ -101,9 +108,16 @@ line-height: 30px;
 color: #8d8f91;
 text-align: center;
 margin-bottom: 16px;
-width: auto;
-height: auto;
+width: 100%;
 }
+
+
+#bootuns{
+height: auto;
+width: auto;
+}
+
+
 /* pictures album main */
 #pictures_album_main{
 width: auto;
@@ -121,24 +135,18 @@ box-sizing: border-box;
 }
 
 
-#bootuns{
-height: auto;
-width: auto;
-margin-bottom: 26px;
-}
-
 #main_call{
 width: 157px;
 height: 37px;
 background-color: rgb(70, 70, 255);
 border: 2px #1c2329 solid ;
 border-radius: 5px;
-color: white;
+color: rgb(255, 255, 255);
 font-size: 15px;
 padding: 6px 12px;
 }
-
-
+    
+    
 #secondory_action{
 width: 157px;
 height: 37px;
@@ -150,23 +158,219 @@ font-size: 15px;
 padding: 6px 12px;
 }
 
+
+
 /* picturs */
+#flex-column{
+display: flex;
+flex-direction: column;
+}
+
+
+#pictures_main{
+width: auto;
+height: auto;
+padding: 48px 0px;
+background-color: 	#2b3035;
+}
+
+#pictures_into{
+padding: 0px 12px;
+margin-right: 8%;
+margin-left: 8%;
+
+
+}
+
+#picture_shadow{
+background-color: #212529;
+border-radius: 10px;
+border: 1px solid #6c757d;
+}
+
+#pictures_1{
+padding: 0px 8px;
+margin: 16px 0px 0px;
+width: 30%;
+height: 2%;
+}
+
+#pictures_2{
+padding: 0px 8px;
+margin: 16px 0px 0px;
+width: 30%;
+height: 2%;
+
+
+}
+
+
+#picuture_j{
+display: flex;
+width: auto;
+height: 225px;
+}
+
+#rect{
+width: 100%;
+height: 100%;
+fill: none;
+border-top-left-radius: 10px ;
+border-top-right-radius: 10px ;
+}
+
+
+#paragrath_picture_and_buttons{
+padding: 16px;
+}
+
+
+
+
+#paragrath_picture{
+margin: 0px 0px 16px;
+color: #dee2e6;
+text-align: left;
+line-height: 25px;
+font-family: sans-serif;
+font-size: 17px;
+}
+
+
+
+
+
+#picture_buttons{
+display: flex;
+justify-content: space-between;
+}
+
+#picture_time{
+width: auto;
+height: auto;
+color: #dee2e6;
+text-decoration: none;
+font-family: sans-serif ;
+font-size: 14px;
+align-items:center;
+padding-top: 9px;
+}
+
+#just_buttons{
+display: flex;
+}
+
+
+#view{
+width: 47px;
+height: 30px;
+background-color: transparent;
+border: 2px solid #6c757d;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+text-align: center;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+color: #6c757d;
+}
+
+#edit{
+width: 40px;
+height: 30px;
+background-color: transparent;
+border: 2px solid #6c757d;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding: 4px 8px;
+margin: 0px 0px 0px -1px;
+text-align: center;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+color: #6c757d;
+}
+
+
+#pictures_2{
+padding: 0px 8px;
+margin: 16px 0px 0px;
+width: 30%;
+height: 2%;
+}
+
+
+#pictures_3{
+padding: 0px 8px;
+margin: 16px 0px 0px;
+width: 30%;
+height: 2%;
+}
+
 
 
 /* media for button */
-@media only screen and (max-width: 371px){
+@media only screen and (max-width: 280px){
 #button_top{
 display: none;
 }
 }
 
 
-@media only screen and { max-width: ;
-    
+
+
+/* responsive for ipads */
+@media only screen and (max-width:1030px) {
+#album_into_into{
+margin-right: 20%;
+margin-left: 20%;
+padding-right: 1%;
+padding-left: 1%;
+}
+#album_top{
+position: absolute;
+left: 35px;
+font-size: 25px;
+}
+#camera_icon{
+position: absolute;
+left: 10px;
+top: 21px;
 }
 
+#top_site{
+padding-right: 1%;
+}
+}
 
+/* responsive for phones */
+@media only screen and (max-width:800px) {
+#album_into{
+padding: 0%;
+width: 100%;
+height: 100%;
 
+}
+#album_main{
+width: auto;
+height: auto;
+padding: 48px 12px;
+margin: 0%;
+text-align: center;
+}
+#album_into_into{
+padding: 0px 12px;
+margin: 0%;
+}
+#album_example{
+font-size: 25px;
+}
+#album_example_paragraph{
+font-size: 17px;
+line-height: 25px;
+}
+}
+    
 
 /* pesudo selections */
 a:visited { color:rgb(52, 52, 52) }
